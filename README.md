@@ -44,21 +44,8 @@
 - ✅ **可观测性**：细粒度观测（每个节点耗时、输入输出）自动落审计库，支持按 `trace_id` 查询，不污染业务响应
 - ✅ **配置化运行**：支持 HTTP 端点 `/v1/screen`，自动根据请求负载推断业务类型；内置健康检查
 
-[🔗 项目链接](https://github.com/zoe0806/risk_control)
+[🔗 项目链接](https://github.com/zoe0806/risk-control)
 
----
-
-## 📈 GitHub 统计
-
-![你的 GitHub 统计](https://github-readme-stats.vercel.app/api?username=zoe0806&show_icons=true&theme=radical)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=zoe0806&layout=compact)
-
----
-
-## 📫 联系我
-
-- 📧 Email：zhiyinwang20@163.com
 
 ---
 
