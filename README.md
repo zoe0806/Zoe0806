@@ -34,25 +34,25 @@
 
 ---
 
-### 🤖 AI 智能客服 & 内容提效工具
+### 🤖 风控编排系统（Risk Control Agent）
 
-> 为短视频/电商场景打造的低成本 AI 工具集，已集成至小程序
+> 基于 CloudWeGo Eino 构建的可插拔风控编排引擎，支持跨境制裁筛查与股票订单风控两条流水线，提供统一审计与 HTTP 服务
 
-- ✍️ **AI 标题/文案/封面生成**：上传视频 → 自动生成 10 个风格标题 + 简介 + 封面配文
-- 💬 **智能客服**：FAQ 库 + RAG，自动回复 80% 常见问题，转人工率降低 60%
-- 📊 **数据看板**：记录 AI 使用次数、粉丝互动指标、日活趋势
-- 🎯 **热点选题**：每日抓取热搜榜，AI 筛选并推送“今日推荐选题”
+- ✅ **多业务编排**：`RiskEngine` 根据 `business_type` 分发至 `EvaluateCrossBorderTransaction` / `EvaluateStockOrder`，共用审计与名单库（MySQL）
+- ✅ **图编排实践**：使用 `compose.NewGraph` + Lambda 节点 + 条件分支，分别实现制裁筛查图和股票订单风险评分图
+- ✅ **统一响应结构**：`ScreeningResult` 包含 `blocked`、`block_reason`、`risk_score` 等字段，便于下游系统消费
+- ✅ **可观测性**：细粒度观测（每个节点耗时、输入输出）自动落审计库，支持按 `trace_id` 查询，不污染业务响应
+- ✅ **配置化运行**：支持 HTTP 端点 `/v1/screen`，自动根据请求负载推断业务类型；内置健康检查
 
-[🔗 项目链接](https://github.com/zoe0806/marketing)
-
+[🔗 项目链接](https://github.com/zoe0806/risk_control)
 
 ---
 
 ## 📈 GitHub 统计
 
-![你的 GitHub 统计](https://github-readme-stats.vercel.app/api?username=你的用户名&show_icons=true&theme=radical)
+![你的 GitHub 统计](https://github-readme-stats.vercel.app/api?username=zoe0806&show_icons=true&theme=radical)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=你的用户名&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=zoe0806&layout=compact)
 
 ---
 
