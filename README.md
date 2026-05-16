@@ -11,10 +11,9 @@
 
 ## 🧑‍💻 关于我
 
-- 🔭 技术栈：Go、Python、Java | 微服务、分布式事务、高并发架构
-- 🤖 AI 方向：Agent 工作流编排（Eino）、RAG 混合检索、意图识别与实体链接、Function Calling
+- 🔭 技术栈：Go、Python | 微服务、分布式事务、高并发架构
+- 🤖 AI 方向：Agent 工作流编排（Eino）、RAG 混合检索、意图识别、Function Calling
 - 📊 数据工程：评测集构建、离线指标分析（Recall@K、NDCG）、链路耗时与 Token 统计
-- 🧩 工程沉淀：Prompt 模板库、智能单元测试生成、自动化 PR 检查
 - 🌱 当前探索：多模态 RAG、AI 短片
 
 ---
