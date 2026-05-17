@@ -1,12 +1,12 @@
 # 👋 Hi there, 我是 Zoe
-
+<!--  
 ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![AI](https://img.shields.io/badge/AI%20Agent-Eino-4B8BBE)
 ![RAG](https://img.shields.io/badge/RAG-Redis%20Stack-FF4438)
 
 > 10年+后端开发 | Gopher | 高并发金融系统 | AI 工程化实践者  
-<!--  
+
 ---
 
 ## 🧑‍💻 关于我
