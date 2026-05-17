@@ -6,7 +6,7 @@
 ![RAG](https://img.shields.io/badge/RAG-Redis%20Stack-FF4438)
 
 > 10年+后端开发 | Gopher | 高并发金融系统 | AI 工程化实践者  
-
+<!--  
 ---
 
 ## 🧑‍💻 关于我
@@ -47,5 +47,5 @@
 
 
 ---
-
+-->
 > 欢迎交流 AI 应用落地、后端架构、RAG 工程化等话题。
